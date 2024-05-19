@@ -1,0 +1,55 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 3px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.item:first-child {
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.item div {
+    width: 20%;
+}
+
+.img img {
+    width: 100px;
+}
+
+.buyBtn {
+    color: #fff;
+    background-color: rgb(32, 218, 51);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px 35px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    width: 100px;
+    margin: 0 auto 40px auto;
+    transition: 0.3s ease;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
